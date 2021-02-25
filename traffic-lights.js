@@ -1,4 +1,4 @@
-import ac from 'ansi-colors';
+const ac = require('ansi-colors');
 
 const trafficLights = function(s) {
   console.log(ac.red(s));
@@ -6,5 +6,4 @@ const trafficLights = function(s) {
   console.log(ac.green(s));
 }
 
-export { trafficLights };
-export default trafficLights;
+module.exports = trafficLights;
