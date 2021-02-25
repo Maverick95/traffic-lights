@@ -1,0 +1,12 @@
+{
+  "name": "traffic-lights",
+  "version": "1.0.0",
+  "description": "A simple package to test NPM collisions",
+  "main": "traffic-lights.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-colors": "^3.0.0"
+  }
+}
